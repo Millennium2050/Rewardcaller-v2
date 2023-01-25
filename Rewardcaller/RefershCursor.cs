@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
@@ -19,7 +18,6 @@ namespace Rewardcaller
             service.AddCursorItems();
 
             //var json = JsonSerializer.Serialize(objs);
-
             //log.LogInformation(json);
         }
     }
