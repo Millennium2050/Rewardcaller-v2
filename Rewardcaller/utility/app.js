@@ -82,3 +82,21 @@ function triggerSearchEvery10Seconds() {
     }, 10000); // 10000 milliseconds = 10 seconds
 }
 
+
+/*
+window.onload = function() {
+        // Create a new script element
+        var script = document.createElement('script');
+        
+        // Set the source attribute to your app.js file
+        script.src = 'D:\msf\app.js';
+
+        // Append the script element to the document body
+        document.body.appendChild(script);
+
+        // Call the startTriggering function after the script is loaded
+        script.onload = function() {
+            triggerSearchEvery10Seconds();
+        };
+    };
+*/
